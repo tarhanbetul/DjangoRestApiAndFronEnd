@@ -16,7 +16,7 @@ $http(settings).then(function (response) {
 	 document.getElementById("loader").style.display = "none";
      console.log(response);
      $scope.ProductCreateData = response.data;
-	 window.location.replace("ProductList.html");
+	 window.location.replace("ProductList.html");//test
 },
 function(response){
 	 document.getElementById("loader").style.display = "none";
